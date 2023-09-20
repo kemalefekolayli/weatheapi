@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Movie Search Website</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    
+    <div class = "wrapper">
+        
+        <div class = "logo">
+            <div class = "container">
+                <p>HAVA<span>DURUMU</span></p>
+            </div>
+        </div>
+       
+        <div class = "search-container">
+            <div class = "search-element">
+                <h3>Şehir Gir</h3>
+                <input type = "text" class = "form-control" placeholder="Aratmak için şehir gir" id = "movie-search-box"  onclick = "find()">
+
+                <div class = "search-list" id = "search-list">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+
+        <!-- result container -->
+        <div class = "container">
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    
+    <script src = "apps.js"></script>
+</body>
+</html>
